@@ -1,0 +1,201 @@
+INTRODUCTION TO DATA WAREHOUSING  AND DATA MINING CONCEPTS :
+
+# Intro                                 $      
+# Data                                  $
+# OLAP                                  $
+# Preprocessing                         $
+
+FREQUENT PATTERN MINING : Produce dependency rules ,  Marketing and Sales Promotion , Supermarket shelf management , Inventory Management 
+
+# ARM by Apriory                        $
+# ARM by Conf.                          $
+# Multiple Associative Rule Mining      $
+# FP Growth                             $
+
+CLASSIFICATION : Direct Marketing , Customer Attrition/Churn , Fraud Detection , Sky Survey Cataloging 
+
+# Decision Tree by Entropy
+# Decision Tree by Gini
+# KNN
+# Neieve Bayassian Classification
+# Nearest Neighbours
+
+PREDICTION :  Statistics, Neural network , Time series prediction of stock market indices
+
+# Linear Regression
+# Time Series 
+
+CLUSTER ANALYSIS : Market Segmentation , Document Clustering , Stock Data 
+
+# K Means Clustering
+# Hierarchieal
+# Basic Clustering
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+Descriptive :
+ 
+? Clustering   
+? Association Rule Discovery  
+? Sequential Pattern Discovery  : Deviation/Anomaly Detection
+
+Predictive:
+
+? Classification 
+? Regression   
+? Deviation Detection 
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+Challenges of Data Mining :
+
+? Scalability 
+? Dimensionality 
+? Complex and Heterogeneous Data 
+? Data Quality 
+? Data Ownership and Distribution 
+? Privacy Preservation 
+? Streaming Data 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+Types or level of Attributes :
+
+? Nominal 
+Examples: ID numbers, eye color, zip codes 
+? Ordinal 
+Examples: rankings (e.g., taste of potato chips on a scale 
+from 1-10), grades, height in {tall, medium, short} 
+? Interval 
+Examples: calendar dates, temperatures in Celsius or 
+Fahrenheit. 
+? Ratio 
+Examples: temperature in Kelvin, length, time, counts  
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+Discrete and Continuous Attributes
+
+Discrete :
+Examples: zip codes, counts, or the set of words in a collection of 
+documents  
+
+Continuous :
+Examples: temperature, height, or weight.   
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+Types of data sets  
+
+Record Data  
+Data Matrix  
+Document Data 
+Transaction Data 
+Graph Data 
+Chemical Data 
+Ordered Data  
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+Examples of data quality problems:  
+?Noise and outliers  
+?missing values  
+?duplicate data  
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+Data Preprocessing
+
+? Aggregation 
+
+? Sampling 
+  Simple Random Sampling 
+  Sampling without replacement 
+  Sampling with replacement 
+  Stratified sampling 
+
+? Dimensionality Reduction Techniques :
+ Principle Component Analysis 
+ Singular Value Decomposition 
+ Others: supervised and non-linear techniques 
+
+? Feature subset selection 
+? Feature creation 
+  Mapping Data to a New Space:
+   Fourier transform 
+   Wavelet transform 
+
+? Discretization and Binarization 
+? Attribute Transformation 
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+Similarity and Dissimilarity 
+
+Euclidean Distance 
+Minkowski Distance 
+Cosine Similarity 
+SMC versus Jaccard : SMC = (M11+ M00)/(M01 + M10 + M11 + M00)
+Correlation
+Similarities 
+Density : Euclidean density , Probability density  
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+Data Warehouse
+
+Subject-oriented, Integrated, Time-variant, and Nonvolatile collection of data in support of management?s  decision-making process.
+? DBMS— tuned for OLTP: access methods, indexing, concurrency control, recovery 
+? Warehouse—tuned for OLAP: complex OLAP queries, multidimensional view, consolidation 
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+Major Tasks in Data Preprocessing 
+
+? Data cleaning 
+ Fill in missing values, smooth noisy data, identify or remove 
+ outliers, and resolve inconsistencies 
+? Data integration 
+ Integration of multiple databases, data cubes, or files 
+? Data reduction 
+ Dimensionality reduction 
+ Numerosity reduction 
+ Data compression 
+? Data transformation and data discretization 
+ Normalization  
+ Concept hierarchy generation 
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+Data Cleaning
+
+Incomplete : 
+? a global constant : e.g., ?unknown?, a new class?!  
+? the attribute mean 
+? the attribute mean for all samples belonging to the 
+same class: smarter 
+? the most probable value: inference-based such as 
+Bayesian formula or decision tree 
+
+Noisy Data: For Smoothing
+Binning
+Regression 
+Clustering
+Combined computer and human inspection 
+
+Inconsistent
+
+Intentional
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+Data Integration (Combining)
+
+Handling Redundancy 
+Correlation Analysis (Nominal Data) 
+  -> Chi-Square Calculation
+Correlation Analysis (Numeric Data) 
+  -> Correlation coefficient
+Correlation (viewed as linear relationship) 
+Covariance (Numeric Data) => Corr(A,B) = Cov(A,B) / s.d(A) * s.d(B)

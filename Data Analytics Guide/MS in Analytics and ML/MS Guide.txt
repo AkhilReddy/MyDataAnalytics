@@ -1,0 +1,21 @@
+Universities Programs:
+
+1.Data Science
+2.Analytics
+3.Computational Data Science
+4.Machine Learning
+5.Business Analytics / Business Intelligence
+6.Applied Statistics
+7.Statistics
+8.Data Science and Engineering
+9.Marketing Analytics
+
+Links:
+
+https://www.analyticsvidhya.com/blog/2016/07/10-analytics-data-science-top-universities-masters-usa/
+
+http://www.mastersindatascience.org/schools/23-great-schools-with-masters-programs-in-data-science/
+
+http://bostinno.streetwise.co/2015/10/15/best-us-schools-for-data-science-colleges-degrees-in-data-science/
+
+https://www.quora.com/What-are-the-best-Data-Science-Masters-Programs-in-the-US
